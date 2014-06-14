@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".main"
+    tools:ignore="MergeRootFrame" >
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:layout_gravity="center"
+        android:numColumns="3"
+        android:background="#ffffffff"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:textFilterEnabled="true" />
+</FrameLayout>
